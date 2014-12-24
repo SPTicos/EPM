@@ -22,3 +22,6 @@ System.Reflection.Extensions.dll
 System.Linq.dll
 System.Diagnostics.Debug.dll
 System.Net.Http.dll
+Xamarin.Forms.Xaml.dll
+System.Xml.ReaderWriter.dll
+System.Text.RegularExpressions.dll
