@@ -1,0 +1,5 @@
+/Users/pavelespitia/Projects/EPM/iOS/obj/iPhoneSimulator/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/pavelespitia/Projects/EPM/iOS/obj/iPhoneSimulator/Debug/Default-568h@2x.png
+/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
