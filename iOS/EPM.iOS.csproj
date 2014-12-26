@@ -99,6 +99,11 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\airplane.png" />
+    <BundleResource Include="Resources\alarmmultiple.png" />
+    <BundleResource Include="Resources\accountcircle.png" />
+    <BundleResource Include="Resources\accountcircle%402x.png" />
+    <BundleResource Include="Resources\landscape.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
