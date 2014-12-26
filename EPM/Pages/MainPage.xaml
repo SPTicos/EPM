@@ -5,28 +5,19 @@
   	</ContentPage.Padding>
 	<ContentPage.Content>
 
-    <AbsoluteLayout BackgroundColor="#000000"
-    VerticalOptions="FillAndExpand"
-    HorizontalOptions="FillAndExpand">
+    <AbsoluteLayout BackgroundColor="#000000" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+		<Grid AbsoluteLayout.LayoutBounds="0.5, 1 ,1,0.7" AbsoluteLayout.LayoutFlags="All" >
+	      <TableView>
+	        <TableView.Root>
+	          <TableSection Title="Evento">
+	          </TableSection>
+	        </TableView.Root>
+	      </TableView>
+	    </Grid>
 
 
-   <Grid AbsoluteLayout.LayoutBounds="0.5, 1 ,1,0.7"
-             AbsoluteLayout.LayoutFlags="All" >
-      <TableView>
-        <TableView.Root>
-          <TableSection Title="Evento">
-          </TableSection>
-        </TableView.Root>
-      </TableView>
-    </Grid>
-
-
-	<BoxView Color="Gray"
-AbsoluteLayout.LayoutBounds="0.5,0.17,0.20,0.15"
-	AbsoluteLayout.LayoutFlags="All"></BoxView>
-
-
-</AbsoluteLayout>
+		<BoxView Color="Gray" AbsoluteLayout.LayoutBounds="0.5,0.17,0.20,0.15" AbsoluteLayout.LayoutFlags="All"></BoxView>
+	</AbsoluteLayout>
   </ContentPage.Content>
 </ContentPage>
 
