@@ -7,7 +7,7 @@ namespace EPM
 	{
 		public static Page GetMainPage ()
 		{	
-			return new EPM.MainPage ();
+			return new EPM.VacationRequest ();
 		}
 	}
 }

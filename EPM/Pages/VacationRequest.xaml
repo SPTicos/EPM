@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.VacationRequest">
+
+<ContentPage.Padding>
+	<OnPlatform x:TypeArguments="Thickness" iOS="0, 40, 0, 0" />
+</ContentPage.Padding>
+
+	<ContentPage.Content>
+		<StackLayout  Spacing="15"
+	    VerticalOptions="FillAndExpand"
+	    Orientation="Vertical">
+			<Label Text="Start Date"></Label>
+			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
+			<Label Text="End Date"></Label>
+			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
+			<Label Text="Comments"></Label>
+			<Editor BackgroundColor="Gray" HeightRequest="200"></Editor>
+			<Button Text="Submit" BorderWidth="1"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

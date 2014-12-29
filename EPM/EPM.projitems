@@ -11,11 +11,17 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\MainPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\VacationRequest.xaml.cs">
+      <DependentUpon>VacationRequest.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\MainPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\VacationRequest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
