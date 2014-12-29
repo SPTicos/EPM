@@ -5,21 +5,16 @@
   	</ContentPage.Padding>
 	<ContentPage.Content>
 
-
-    <AbsoluteLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-
-    	<!--<Image Source="landscape.jpg" AbsoluteLayout.LayoutBounds="0, 0 ,1,0.4" AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>-->
-    	<BoxView Color="#9E9E9E" AbsoluteLayout.LayoutBounds="0, 0 ,1,0.4" AbsoluteLayout.LayoutFlags="All"></BoxView>
+	<AbsoluteLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+		<BoxView Color="#9E9E9E" AbsoluteLayout.LayoutBounds="0, 0 ,1,0.4" AbsoluteLayout.LayoutFlags="All"></BoxView>
 		<Grid AbsoluteLayout.LayoutBounds="0.5, 1 ,1,0.7" AbsoluteLayout.LayoutFlags="All" >
 	      <TableView>
 	        <TableView.Root>
 	          <TableSection Title=" ">
-	          	<ImageCell ImageSource="airplane.png" DetailColor="#FFCCBC" TextColor="Black" Text="Option 1" Detail = "Op1"></ImageCell>
-            	<ImageCell ImageSource="alarmmultiple.png" DetailColor="#FFCCBC"  TextColor="Black" Text="Option 2" Detail="Op2" ></ImageCell>
-            
-
-	          </TableSection>
-	        </TableView.Root>
+	          	<ImageCell ImageSource="airplane.png" TextColor="Black" Text="Option 1"></ImageCell>
+            	<ImageCell ImageSource="alarmmultiple.png" TextColor="Black" Text="Option 2"></ImageCell>
+            </TableSection>
+	       </TableView.Root>
 	      </TableView>
 	    </Grid>
 	    <Image Source="accountcircle.png" 
@@ -27,7 +22,6 @@
 	    AbsoluteLayout.LayoutFlags="All"  
 	    HorizontalOptions="FillAndExpand" 
 	    VerticalOptions="FillAndExpand"/>
-		<!--<BoxView Color="Gray" AbsoluteLayout.LayoutBounds="0.5,0.17,0.20,0.15" AbsoluteLayout.LayoutFlags="All"></BoxView>-->
 	</AbsoluteLayout>
   </ContentPage.Content>
 </ContentPage>

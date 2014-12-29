@@ -1,5 +1,5 @@
 # Version: 8.4.0.47 (7244769)
-# [first argument, ignore] # /Users/pavelespitia/Mobile/EPM/iOS/mtouch.exe
+# [first argument, ignore] # /Users/ccerrato147/Projects/SPTicos/EPM/iOS/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/bin/mtouch \
 	--cache \
 	obj/iPhoneSimulator/Debug/mtouch-cache \
@@ -124,4 +124,4 @@
 	../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
 	-r \
 	../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
-	/Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug//EPMiOS.exe \
+	/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug//EPMiOS.exe \

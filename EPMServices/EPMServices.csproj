@@ -35,6 +35,10 @@
     <Compile Include="Interfaces\ISharePointRepository.cs" />
     <Compile Include="Implementations\SharePointRepositoryMockup.cs" />
     <Compile Include="Entities\MainMenuOption.cs" />
+    <Compile Include="Entities\VacationRequest.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Implementations\AppMetadataRepositoryMockup.cs" />
+    <Compile Include="Interfaces\IAppMetadataRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

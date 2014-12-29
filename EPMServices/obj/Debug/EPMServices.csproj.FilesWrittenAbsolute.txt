@@ -1,0 +1,5 @@
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMServices/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMServices/bin/Debug/EPMServices.dll.mdb
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMServices/bin/Debug/EPMServices.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMServices/obj/Debug/EPMServices.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMServices/obj/Debug/EPMServices.dll.mdb
