@@ -70,6 +70,10 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\airplane.png" />
+    <AndroidResource Include="Resources\drawable\accountcircle.png" />
+    <AndroidResource Include="Resources\drawable\alarmmultiple.png" />
+    <AndroidResource Include="Resources\drawable\landscape.jpg" />
   </ItemGroup>
   <Import Project="..\EPM\EPM.projitems" Label="Shared" Condition="Exists('..\EPM\EPM.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
