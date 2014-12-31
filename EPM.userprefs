@@ -1,32 +1,26 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EPM/App.cs">
-=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EPMServices/Implementations/SharePointRepositoryMockup.cs">
->>>>>>> Stash
+  <MonoDevelop.Ide.Workbench ActiveDocument="EPMServices/Interfaces/ISharePointRepository.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="EPM/App.cs" Line="3" Column="3" />
-      <File FileName="EPM/Pages/MainPage.xaml" Line="77" Column="77" />
-      <File FileName="EPM/Pages/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Android/obj/Debug/MainPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="iOS/obj/iPhoneSimulator/Debug/MainPage.xaml.g.cs" Line="1" Column="1" />
-=======
-      <File FileName="EPMServices/Entities/MainMenuOption.cs" Line="71" Column="71" />
-      <File FileName="EPMServices/Interfaces/ISharePointRepository.cs" Line="23" Column="23" />
-      <File FileName="EPMServices/Implementations/SharePointRepositoryMockup.cs" Line="30" Column="30" />
->>>>>>> Stash
+      <File FileName="EPM/Pages/MainPage.xaml" Line="55" Column="55" />
+      <File FileName="EPMServices/Implementations/AppMetadataRepositoryMockup.cs" Line="42" Column="42" />
+      <File FileName="EPMServices/Interfaces/IAppMetadataRepository.cs" Line="51" Column="51" />
+      <File FileName="EPMServices/Interfaces/ISharePointRepository.cs" Line="2" Column="2" />
+      <File FileName="EPMServices/Entities/MainMenuOption.cs" Line="19" Column="19" />
+      <File FileName="EPMServices/Entities/VacationRequest.cs" Line="8" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
+          <Node name="EPM" expanded="True">
+            <Node name="Pages" expanded="True" />
+          </Node>
           <Node name="EPMServices" expanded="True">
-            <Node name="Implementations" expanded="True">
-              <Node name="SharePointRepositoryMockup.cs" selected="True" />
+            <Node name="Entities" expanded="True" />
+            <Node name="Implementations" expanded="True" />
+            <Node name="Interfaces" expanded="True">
+              <Node name="ISharePointRepository.cs" selected="True" />
             </Node>
-            <Node name="Interfaces" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -25,7 +25,7 @@ namespace EPMServices
 			menuImages [1] = "alarmmultiple.png";
 		}
 
-		public void setOptions(ref List<MainMenuOption> option){
+		public void setOptions(ref List<MainMenuOption> options){
 			for (int c = 0; c < numberOfMenuItems; c++) {
 				var menuOption = new MainMenuOption { Title = menuTitles[c], ContainerId = menuContainerIds[c], Img = menuImages[c] };
 				options.Add (menuOption);
