@@ -23,5 +23,35 @@
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/Xamarin.Forms.Core.dll
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/Xamarin.Forms.Xaml.dll
+<<<<<<< HEAD
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/EPMRepositories.dll
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/EPMRepositories.dll.mdb
+=======
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/EPM.Android.MainPage.xaml
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/MainPage.xaml.g.cs
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPM.Android.dll.mdb
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPM.Android.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPM.Android.apk
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/android/bin/EPM.Android.apk
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/layout/main.xml
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/values/strings.xml
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/drawable/icon.png
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/drawable/airplane.png
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/drawable/accountcircle.png
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/drawable/alarmmultiple.png
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/res/drawable/landscape.jpg
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/R.cs.flag
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPM.Android-Signed.apk
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/uploadflags.txt
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/EPM.Android.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/EPM.Android.dll.mdb
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/Xamarin.Forms.Platform.Android.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/Xamarin.Forms.Core.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/EPM.Android.VacationRequest.xaml
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/obj/Debug/VacationRequest.xaml.g.cs
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPMRepositories.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPMRepositories.dll.mdb
+>>>>>>> Stash

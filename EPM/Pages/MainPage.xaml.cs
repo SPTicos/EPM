@@ -9,12 +9,13 @@ namespace EPM
 {
 	public partial class MainPage : ContentPage
 	{
+		IUserRepository UsersRepo;
 		public MainPage ()
 		{
 			InitializeComponent ();
 			App.Navigator = this.Navigation;
 
-
+			UsersRepo = new UsersMockupRepository ();
 			GetOptions ();
 		}
 
@@ -54,8 +55,6 @@ namespace EPM
 				await Navigation.PushAsync (new VacationRequest ());
 				break;
 			}
-					
-				
 		}
 	}
 }

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 /Users/pavelespitia/Mobile/EPM/Android/bin/Debug/EPM.Android.dll
 /Users/pavelespitia/Mobile/EPM/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
 /Users/pavelespitia/Mobile/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
 /Users/pavelespitia/Mobile/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Core.dll
 /Users/pavelespitia/Mobile/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
+=======
+/Users/ccerrato147/Projects/SPTicos/EPM/Android/bin/Debug/EPM.Android.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/packages/Xamarin.Android.Support.v4.19.0.2/lib/MonoAndroid10/Xamarin.Android.Support.v4.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Core.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/packages/Xamarin.Forms.1.0.6186/lib/MonoAndroid10/Xamarin.Forms.Xaml.dll
+/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
+>>>>>>> Stash
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.Concurrent.dll
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Collections.dll
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.ComponentModel.Annotations.dll

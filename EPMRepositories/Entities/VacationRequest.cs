@@ -4,6 +4,10 @@ namespace EPMServices
 {
 	public class VacationRequest
 	{
+		public int Id {
+			get;
+			set;
+		}
 		public DateTime InitialDate {
 			get;
 			set;
