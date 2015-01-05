@@ -16,8 +16,14 @@ namespace EPM {
     
     public partial class MainPage : ContentPage {
         
+        private TableView tblOptions;
+        
+        private TableSection mainTableSection;
+        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
+            tblOptions = this.FindByName <TableView>("tblOptions");
+            mainTableSection = this.FindByName <TableSection>("mainTableSection");
         }
     }
 }
