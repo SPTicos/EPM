@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.MainPage">
 	<ContentPage.Padding>
-    	<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+    	<!--<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />-->
   	</ContentPage.Padding>
 	<ContentPage.Content>
 
 	<AbsoluteLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 		<BoxView Color="#9E9E9E" AbsoluteLayout.LayoutBounds="0, 0 ,1,0.4" AbsoluteLayout.LayoutFlags="All"></BoxView>
 		<Grid AbsoluteLayout.LayoutBounds="0.5, 1 ,1,0.7" AbsoluteLayout.LayoutFlags="All" >
-	      <TableView>
+	      <TableView x:Name="tblOptions">
 	        <TableView.Root>
-	          <TableSection Title=" ">
-	          	<ImageCell ImageSource="airplane.png" TextColor="Black" Text="Option 1"></ImageCell>
-            	<ImageCell ImageSource="alarmmultiple.png" TextColor="Black" Text="Option 2"></ImageCell>
+	          <TableSection Title=" " x:Name="mainTableSection">
+	          	
             </TableSection>
 	       </TableView.Root>
 	      </TableView>

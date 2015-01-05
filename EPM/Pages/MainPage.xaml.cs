@@ -30,7 +30,8 @@ namespace EPM
 					Text = option.Title,
 					ImageSource = option.Img,
 					CommandParameter = option.ContainerId,
-					Command = GoToMenuOptionCommand
+					Command = GoToMenuOptionCommand,
+					TextColor = Color.Black
 				};
 
 				cells.Add (cell);

@@ -6,16 +6,18 @@
 </ContentPage.Padding>
 
 	<ContentPage.Content>
+
 		<StackLayout  Spacing="15"
 	    VerticalOptions="FillAndExpand"
 	    Orientation="Vertical">
+	    <ActivityIndicator HorizontalOptions="CenterAndExpand" IsRunning="false" IsVisible="false" x:Name="activity"></ActivityIndicator>
 			<Label Text="Start Date"></Label>
 			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
 			<Label Text="End Date"></Label>
 			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
 			<Label Text="Comments"></Label>
 			<Editor BackgroundColor="Gray" HeightRequest="200"></Editor>
-			<Button Text="Submit" BorderWidth="1"></Button>
+			<Button Text="Submit" BorderWidth="1" x:Name="btnSubmit"></Button>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
