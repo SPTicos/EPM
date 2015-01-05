@@ -7,8 +7,10 @@ namespace EPM
 	{
 		public static Page GetMainPage ()
 		{	
-			return new EPM.VacationRequest ();
+			return new NavigationPage (new MainPage ());
 		}
+
+		public static INavigation Navigator { get; set; }
 	}
 }
 

@@ -78,4 +78,10 @@
   <Import Project="..\EPM\EPM.projitems" Label="Shared" Condition="Exists('..\EPM\EPM.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" />
+  <ItemGroup>
+    <ProjectReference Include="..\EPMRepositories\EPMRepositories.csproj">
+      <Project>{53337E26-0BF6-49E2-8818-92E33C566BED}</Project>
+      <Name>EPMRepositories</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
