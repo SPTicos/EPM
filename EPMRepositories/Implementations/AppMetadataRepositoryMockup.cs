@@ -18,16 +18,23 @@ namespace EPMServices
 			menuContainerIds = new string[numberOfMenuItems];
 
 			for (int a = 0; a < menuTitles.Length; a++) {
-				menuTitles [a] = "Option " + a++;
+				menuTitles [a] = "Option " + a;
 			}
 
 			menuImages [0] = "airplane.png";
 			menuImages [1] = "alarmmultiple.png";
+
+			menuContainerIds [0] = "RequestVacation";
 		}
 
-		public void setOptions(ref List<MainMenuOption> options){
+		public void setOptions (ref List<MainMenuOption> options)
+		{
 			for (int c = 0; c < numberOfMenuItems; c++) {
-				var menuOption = new MainMenuOption { Title = menuTitles[c], ContainerId = menuContainerIds[c], Img = menuImages[c] };
+				var menuOption = new MainMenuOption {
+					Title = menuTitles [c],
+					ContainerId = menuContainerIds [c],
+					Img = menuImages [c]
+				};
 				options.Add (menuOption);
 			}
 		}
