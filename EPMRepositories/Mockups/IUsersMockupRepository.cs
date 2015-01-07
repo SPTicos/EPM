@@ -8,7 +8,7 @@ namespace EPMRepositories
 	{
 		List<User> _users;
 
-		public IUsersMockupRepository ()
+		public UsersMockupRepository ()
 		{
 			_users = new List<User> ();
 			User sandro = new User {
@@ -22,7 +22,7 @@ namespace EPMRepositories
 			_users.Add (new User{ Id = 2, Name = "Leonel Messi", VacationDays = 6, Account = "lmessi", Password = "Password", Manager = sandro });
 		}
 
-		User GetUserById (long Id){
+		public User GetUserById (long Id){
 			foreach (var u in _users) {
 				if (u.Id.Equals (Id))
 					return u;
@@ -30,7 +30,7 @@ namespace EPMRepositories
 			return null;
 		}
 
-		long IsLoginValid(string acc, string pass){
+		public long IsLoginValid(string acc, string pass){
 			foreach (var u in _users) {
 				if (u.Account.Equals (acc)) {
 					if (u.Password.Equals (pass))
@@ -42,7 +42,7 @@ namespace EPMRepositories
 			return -1;
 		}
 
-		IEnumerable<User> users(){
+		public IEnumerable<User> users(){
 			return _users;
 		}
 	}

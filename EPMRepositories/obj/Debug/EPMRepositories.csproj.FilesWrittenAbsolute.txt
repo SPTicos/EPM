@@ -36,11 +36,6 @@
 /Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Text.RegularExpressions.dll
 <<<<<<< Updated upstream
 >>>>>>> Stash
-=======
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll.mdb
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll.mdb
 /Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
 /Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll.mdb
 /Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
