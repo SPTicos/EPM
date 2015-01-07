@@ -6,12 +6,13 @@ namespace EPMServices
 	public class SharePointRepositoryMockup : ISharePointRepository
 	{
 		Dictionary<int, VacationRequest> vList;
+
 		public SharePointRepositoryMockup ()
 		{
 			vList = new Dictionary<int, VacationRequest> ();
 		}
 
-		public bool SaveVacationRequest(VacationRequest v)
+		public bool SaveVacationRequest (VacationRequest v)
 		{
 			vList.Add (v.Id, v);
 			return true;
@@ -25,7 +26,7 @@ namespace EPMServices
 
 		public bool UpdateVacationRequest (VacationRequest v)
 		{
-			vList[v.Id] = v;
+			vList [v.Id] = v;
 			return true;
 		}
 

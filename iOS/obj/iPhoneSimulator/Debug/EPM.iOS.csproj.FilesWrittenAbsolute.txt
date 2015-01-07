@@ -8,63 +8,8 @@
 /Users/pavelespitia/Mobile/EPM/iOS/obj/iPhoneSimulator/Debug/EPM.iOS.VacationRequest.xaml
 /Users/pavelespitia/Mobile/EPM/iOS/obj/iPhoneSimulator/Debug/MainPage.xaml.g.cs
 /Users/pavelespitia/Mobile/EPM/iOS/obj/iPhoneSimulator/Debug/VacationRequest.xaml.g.cs
-/Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-/Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/pavelespitia/Mobile/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/pavelespitia/Mobile/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-<<<<<<< Updated upstream
 /Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll
 /Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll.mdb
-=======
-/Users/pavelespitia/Projects/EPM/iOS/obj/iPhoneSimulator/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
-/Users/pavelespitia/Projects/EPM/iOS/obj/iPhoneSimulator/Debug/Default-568h@2x.png
-/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/pavelespitia/Projects/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/Default-568h@2x.png
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPM.iOS.MainPage.xaml
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/MainPage.xaml.g.cs
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/airplane.png
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/alarmmultiple.png
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/accountcircle.png
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/accountcircle@2x.png
->>>>>>> Stash
-<<<<<<< Updated upstream
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPM.iOS.VacationRequest.xaml
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/VacationRequest.xaml.g.cs
->>>>>>> Stashed changes
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll.mdb
-=======
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/Default-568h@2x.png
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/airplane.png
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/alarmmultiple.png
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/accountcircle.png
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/accountcircle@2x.png
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPM.iOS.MainPage.xaml
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPM.iOS.VacationRequest.xaml
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/MainPage.xaml.g.cs
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/VacationRequest.xaml.g.cs
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/obj/iPhoneSimulator/Debug/EPMiOS.exe.mdb
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
->>>>>>> Stashed changes
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll
-/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug/EPMRepositories.dll.mdb
->>>>>>> Stashed changes

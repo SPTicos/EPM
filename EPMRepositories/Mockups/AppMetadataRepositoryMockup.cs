@@ -17,9 +17,10 @@ namespace EPMServices
 			menuImages = new string[numberOfMenuItems];
 			menuContainerIds = new string[numberOfMenuItems];
 
-			for (int a = 0; a < menuTitles.Length; a++) {
-				menuTitles [a] = "Option " + (a + 1);
-			}
+
+			menuTitles [0] = "New Vacation Request";
+			menuTitles [1] = "Manage Request";
+			
 
 			menuImages [0] = "airplane.png";
 			menuImages [1] = "alarmmultiple.png";

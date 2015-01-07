@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll.mdb
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
@@ -6,51 +5,3 @@
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll.mdb
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Core.dll
 /Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/mscorlib.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Core.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Linq.Queryable.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Diagnostics.Tools.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.ComponentModel.EventBasedAsync.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Net.Primitives.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Net.Requests.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Net.NetworkInformation.dll
-/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug/System.Text.RegularExpressions.dll
-=======
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll.mdb
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll.mdb
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Core.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/mscorlib.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Core.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Linq.Queryable.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Diagnostics.Tools.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.ComponentModel.EventBasedAsync.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.Primitives.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.Requests.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.NetworkInformation.dll
-/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Text.RegularExpressions.dll
-<<<<<<< Updated upstream
->>>>>>> Stash
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll.mdb
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/EPMRepositories.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/obj/Debug/EPMRepositories.dll.mdb
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Core.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/mscorlib.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Core.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Linq.Queryable.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Diagnostics.Tools.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.ComponentModel.EventBasedAsync.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.Primitives.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.Requests.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Net.NetworkInformation.dll
-/Users/alvarohv/Projects/SPTicos/EPM/EPMRepositories/bin/Debug/System.Text.RegularExpressions.dll
->>>>>>> Stashed changes

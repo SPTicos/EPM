@@ -12,11 +12,11 @@
 	    Orientation="Vertical">
 	    <ActivityIndicator HorizontalOptions="CenterAndExpand" IsRunning="false" IsVisible="false" x:Name="activity"></ActivityIndicator>
 			<Label Text="Start Date"></Label>
-			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
+			<DatePicker Format="D" MinimumDate="Today" x:Name="startDate"></DatePicker>
 			<Label Text="End Date"></Label>
-			<DatePicker Format="D" MinimumDate="Today" ></DatePicker>
+			<DatePicker Format="D" MinimumDate="Today" x:Name="endDate"></DatePicker>
 			<Label Text="Comments"></Label>
-			<Editor BackgroundColor="Gray" HeightRequest="200"></Editor>
+			<Editor BackgroundColor="Gray" HeightRequest="200"  x:Name="comments"></Editor>
 			<Button Text="Submit" BorderWidth="1" x:Name="btnSubmit"></Button>
 		</StackLayout>
 	</ContentPage.Content>

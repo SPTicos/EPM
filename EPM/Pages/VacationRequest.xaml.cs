@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace EPM
 {
@@ -20,10 +21,26 @@ namespace EPM
 			ActivityIndicator activity = this.FindByName<ActivityIndicator> ("activity");
 			activity.IsVisible = true;
 			activity.IsRunning = true;
-			//Long operation running here
+			SaveRequest ();
 			activity.IsVisible = false;
 			activity.IsRunning = false;
-			this.DisplayAlert ("Error", "Error loading data. Please check connectivity and try again.", "OK", "NO");
+			this.DisplayAlert ("Success!", "Your request was submitted successfully", "OK", null);
+			Navigation.PushAsync (new MainPage ());
+		}
+
+
+		public async void SaveRequest ()
+		{
+			EPMServices.VacationRequest request = new EPMServices.VacationRequest ();
+
+			request.InitialDate = this.FindByName<DatePicker> ("startDate").Date;
+			request.EndDate = this.FindByName<DatePicker> ("endDate").Date;
+			request.Comments = this.FindByName<Editor> ("comments").Text.Trim ();
+			request.SubmissionDate = DateTime.Now;
+
+			EPMServices.SharePointRepositoryMockup mock = new EPMServices.SharePointRepositoryMockup ();
+			mock.SaveVacationRequest (request);
+
 		}
 	}
 }
