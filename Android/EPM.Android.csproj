@@ -74,6 +74,11 @@
     <AndroidResource Include="Resources\drawable\accountcircle.png" />
     <AndroidResource Include="Resources\drawable\alarmmultiple.png" />
     <AndroidResource Include="Resources\drawable\landscape.jpg" />
+    <AndroidResource Include="Resources\drawable\dayCalendar.png" />
+    <AndroidResource Include="Resources\drawable\doc.png" />
+    <AndroidResource Include="Resources\drawable\list.png" />
+    <AndroidResource Include="Resources\drawable\user.png" />
+    <AndroidResource Include="Resources\drawable\monthlyCalendar.png" />
   </ItemGroup>
   <Import Project="..\EPM\EPM.projitems" Label="Shared" Condition="Exists('..\EPM\EPM.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

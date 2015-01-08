@@ -104,6 +104,16 @@
     <BundleResource Include="Resources\accountcircle.png" />
     <BundleResource Include="Resources\accountcircle%402x.png" />
     <BundleResource Include="Resources\landscape.jpg" />
+    <BundleResource Include="Resources\dayCalendar.png" />
+    <BundleResource Include="Resources\dayCalendar%402x.png" />
+    <BundleResource Include="Resources\doc.png" />
+    <BundleResource Include="Resources\doc%402x.png" />
+    <BundleResource Include="Resources\list.png" />
+    <BundleResource Include="Resources\list%402x.png" />
+    <BundleResource Include="Resources\monthlyCalendar.png" />
+    <BundleResource Include="Resources\monthlyCalendar%402x.png" />
+    <BundleResource Include="Resources\user.png" />
+    <BundleResource Include="Resources\user%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

@@ -29,7 +29,7 @@ namespace EPM
 		}
 
 
-		public async void SaveRequest ()
+		public void SaveRequest ()
 		{
 			EPMServices.VacationRequest request = new EPMServices.VacationRequest ();
 

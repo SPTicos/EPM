@@ -2,22 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.VacationRequest">
 
 <ContentPage.Padding>
-	<OnPlatform x:TypeArguments="Thickness" iOS="0, 40, 0, 0" />
+	<!--<OnPlatform x:TypeArguments="Thickness" iOS="0, 40, 0, 0" />-->
 </ContentPage.Padding>
 
 	<ContentPage.Content>
 
 		<StackLayout  Spacing="15"
 	    VerticalOptions="FillAndExpand"
-	    Orientation="Vertical">
+	    Orientation="Vertical"
+	    BackgroundColor="White">
 	    <ActivityIndicator HorizontalOptions="CenterAndExpand" IsRunning="false" IsVisible="false" x:Name="activity"></ActivityIndicator>
 			<Label Text="Start Date"></Label>
 			<DatePicker Format="D" MinimumDate="Today" x:Name="startDate"></DatePicker>
 			<Label Text="End Date"></Label>
 			<DatePicker Format="D" MinimumDate="Today" x:Name="endDate"></DatePicker>
 			<Label Text="Comments"></Label>
-			<Editor BackgroundColor="Gray" HeightRequest="200"  x:Name="comments"></Editor>
-			<Button Text="Submit" BorderWidth="1" x:Name="btnSubmit"></Button>
+			<Editor BackgroundColor="Gray" HeightRequest="100"  x:Name="comments"></Editor>
+			<Button Text="Submit" BorderWidth="1" x:Name="btnSubmit" TextColor="Black" BackgroundColor="#FF5722"></Button>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

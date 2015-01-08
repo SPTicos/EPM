@@ -12,7 +12,7 @@ namespace EPMServices
 
 		public AppMetadataRepositoryMockup ()
 		{
-			numberOfMenuItems = 2;
+			numberOfMenuItems = 3;
 			menuTitles = new string[numberOfMenuItems];
 			menuImages = new string[numberOfMenuItems];
 			menuContainerIds = new string[numberOfMenuItems];
@@ -20,10 +20,12 @@ namespace EPMServices
 
 			menuTitles [0] = "New Vacation Request";
 			menuTitles [1] = "Manage Request";
+			menuTitles [2] = "Requests Log";
 			
 
-			menuImages [0] = "airplane.png";
-			menuImages [1] = "alarmmultiple.png";
+			menuImages [0] = "dayCalendar.png";
+			menuImages [1] = "doc.png";
+			menuImages [2] = "list.png";
 
 			menuContainerIds [0] = "RequestVacation";
 		}

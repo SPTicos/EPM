@@ -10,6 +10,7 @@ namespace EPM
 	public partial class MainPage : ContentPage
 	{
 		IUserRepository UsersRepo;
+
 		public MainPage ()
 		{
 			InitializeComponent ();
