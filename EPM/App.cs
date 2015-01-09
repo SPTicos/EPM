@@ -7,8 +7,8 @@ namespace EPM
 	{
 		public static Page GetMainPage ()
 		{	
-			//return new NavigationPage (new MainPage ());
-			return new NavigationPage (new VacationApproval ());
+			return new NavigationPage (new MainPage ());
+			//return new NavigationPage (new VacationApproval ());
 		}
 
 		public static INavigation Navigator { get; set; }
