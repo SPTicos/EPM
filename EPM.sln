@@ -71,6 +71,6 @@ Global
 		{F1867DA1-CD21-4FE4-94E8-8AFE488A45B2}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Android\EPM.Android.csproj
+		StartupItem = iOS\EPM.iOS.csproj
 	EndGlobalSection
 EndGlobal

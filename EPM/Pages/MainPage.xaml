@@ -3,9 +3,6 @@
 	<ContentPage.Padding>
     	<OnPlatform x:TypeArguments="Thickness" iOS="0, -20, 0, 0"/>
   	</ContentPage.Padding>
-	<Grid.Padding>
-		<OnPlatform x:TypeArguments="Thickness" Android="30, 0, 0, 0"/>
-  	</Grid.Padding>
 	<ContentPage.Content>
 
 	<AbsoluteLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
