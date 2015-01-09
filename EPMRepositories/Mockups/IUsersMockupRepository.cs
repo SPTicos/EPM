@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using EPMServices;
 
-namespace EPMRepositories
+namespace EPMServices
 {
 	public class UsersMockupRepository : IUserRepository
 	{
@@ -20,6 +19,7 @@ namespace EPMRepositories
 			};
 			_users.Add (sandro);
 			_users.Add (new User{ Id = 2, Name = "Leonel Messi", VacationDays = 6, Account = "lmessi", Password = "Password", Manager = sandro });
+			_users.Add (new User{ Id = 3, Name = "Xavi Hernandez", VacationDays = 6, Account = "xhernandez", Password = "Password", Manager = sandro });
 		}
 
 		public User GetUserById (long Id){

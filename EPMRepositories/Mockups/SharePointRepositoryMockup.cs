@@ -9,7 +9,25 @@ namespace EPMServices
 
 		public SharePointRepositoryMockup ()
 		{
+			var userRepo = new UsersMockupRepository ();
+
 			vList = new Dictionary<int, VacationRequest> ();
+			vList.Add (1, new VacationRequest {
+					Id = 1,
+					InitialDate = DateTime.Now,
+					EndDate = DateTime.Now.AddDays (5),
+					SubmissionDate = DateTime.Now,
+					User = userRepo.GetUserById (2),
+					Comments = "Want some PTO"
+				});
+			vList.Add (2, new VacationRequest {
+				Id = 2,
+				InitialDate = DateTime.Now,
+				EndDate = DateTime.Now.AddDays (5),
+				SubmissionDate = DateTime.Now,
+				User = userRepo.GetUserById (3),
+				Comments = "Want some PTO"
+			});
 		}
 
 		public bool SaveVacationRequest (VacationRequest v)
@@ -30,11 +48,12 @@ namespace EPMServices
 			return true;
 		}
 
-		public IEnumerable<VacationRequest> GetVacationRequests ()
+		public IEnumerable<VacationRequest> GetVacationRequests (long ManagerId)
 		{
 			List<VacationRequest> l = new List<VacationRequest> ();
 			foreach (var e in vList) {
-				l.Add (e.Value);
+				if(e.Value.User.Manager.Id.Equals( ManagerId) )
+					l.Add (e.Value);
 			}
 			return l;
 		}
