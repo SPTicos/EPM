@@ -16,6 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Pages\VacationRequest.xaml.cs">
       <DependentUpon>VacationRequest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\VacationApproval.xaml.cs">
+      <DependentUpon>VacationApproval.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
@@ -23,6 +26,9 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\MainPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\VacationRequest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\VacationApproval.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

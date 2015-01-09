@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using EPMServices;
 
-namespace EPMRepositories
+namespace EPMServices
 {
 	public interface IUserRepository
 	{

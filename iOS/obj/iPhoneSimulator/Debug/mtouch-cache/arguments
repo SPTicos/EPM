@@ -1,9 +1,5 @@
 # Version: 8.4.0.47 (7244769)
-<<<<<<< Updated upstream
-# [first argument, ignore] # /Users/pavelespitia/Mobile/EPM/iOS/mtouch.exe
-=======
-# [first argument, ignore] # /Users/alvarohv/Projects/SPTicos/EPM/iOS/mtouch.exe
->>>>>>> Stashed changes
+# [first argument, ignore] # /Users/ccerrato147/Projects/SPTicos/EPM/iOS/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/bin/mtouch \
 	--cache \
 	obj/iPhoneSimulator/Debug/mtouch-cache \
@@ -35,7 +31,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
 	-r \
-	/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug//EPMRepositories.dll \
+	/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug//EPMRepositories.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/mscorlib.dll \
 	-r \
@@ -130,10 +126,6 @@
 	../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Core.dll \
 	-r \
 	../packages/Xamarin.Forms.1.0.6186/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
-<<<<<<< Updated upstream
 	-r \
-	/Users/pavelespitia/Mobile/EPM/EPMRepositories/bin/Debug//EPMRepositories.dll \
-	/Users/pavelespitia/Mobile/EPM/iOS/bin/iPhoneSimulator/Debug//EPMiOS.exe \
-=======
-	/Users/alvarohv/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug//EPMiOS.exe \
->>>>>>> Stashed changes
+	/Users/ccerrato147/Projects/SPTicos/EPM/EPMRepositories/bin/Debug//EPMRepositories.dll \
+	/Users/ccerrato147/Projects/SPTicos/EPM/iOS/bin/iPhoneSimulator/Debug//EPMiOS.exe \
