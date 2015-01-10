@@ -20,7 +20,7 @@ namespace EPMServices
 
 			menuTitles [0] = "New Vacation Request";
 			menuTitles [1] = "Manage Request";
-			menuTitles [2] = "Requests Log";
+			menuTitles [2] = "History";
 			
 
 			menuImages [0] = "dayCalendar.png";
@@ -28,6 +28,7 @@ namespace EPMServices
 			menuImages [2] = "list.png";
 
 			menuContainerIds [0] = "RequestVacation";
+			menuContainerIds [2] = "RequestHistory";
 		}
 
 		public void setOptions (ref List<MainMenuOption> options)
