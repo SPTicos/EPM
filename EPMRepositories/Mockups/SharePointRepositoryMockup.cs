@@ -48,7 +48,7 @@ namespace EPMServices
 			return true;
 		}
 
-		public IEnumerable<VacationRequest> GetVacationRequests (long ManagerId)
+		public List<VacationRequest> GetVacationRequests (long ManagerId)
 		{
 			List<VacationRequest> l = new List<VacationRequest> ();
 			foreach (var e in vList) {

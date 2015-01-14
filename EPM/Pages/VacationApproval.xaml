@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.VacationApproval">
-	<ContentPage.Padding>
+<!--	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="0, 40, 0, 0" />
-	</ContentPage.Padding>
+	</ContentPage.Padding>-->
 	<ContentPage.Content>
-		<AbsoluteLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-			<Grid AbsoluteLayout.LayoutBounds="0.5, 1, 1, 0.7" AbsoluteLayout.LayoutFlags="All">
+		<StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+			<Grid>
 				<TableView x:Name="tblRequests">
 					<TableView.Root>
-						<TableSection Title=" " x:Name="mainTableSection">
+						<TableSection Title="Pending Approval" x:Name="mainTableSection">
 						</TableSection>
 					</TableView.Root>
 				</TableView>
 			</Grid>
-		</AbsoluteLayout>
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace EPMServices
 {
-	interface ISharePointRepository{
+	public interface ISharePointRepository{
 		bool SaveVacationRequest(VacationRequest v);
 		bool DeleteVacationRequest(int id);
 		bool UpdateVacationRequest(VacationRequest v);
-		IEnumerable<VacationRequest> GetVacationRequests(long ManagerId);
+		List<VacationRequest> GetVacationRequests(long ManagerId);
 		VacationRequest GetVacationRequestById(int id);
 	}
 }
