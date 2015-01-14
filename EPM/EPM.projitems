@@ -21,6 +21,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\VacationApprovalDetails.xaml.cs">
       <DependentUpon>VacationApprovalDetails.xaml</DependentUpon>
+      </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\RequestHistory.xaml.cs">
+      <DependentUpon>RequestHistory.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +39,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\VacationApprovalDetails.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\RequestHistory.xaml">
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -20,9 +20,8 @@ namespace EPMServices
 
 			menuTitles [0] = "New Vacation Request";
 			menuTitles [1] = "Manage Request";
-			menuTitles [2] = "Requests Log";
+			menuTitles [2] = "History";
 			menuTitles [3] = "Vacation Approval";
-			
 
 			menuImages [0] = "dayCalendar.png";
 			menuImages [1] = "doc.png";
@@ -30,6 +29,7 @@ namespace EPMServices
 			menuImages [3] = "list.png";
 
 			menuContainerIds [0] = "RequestVacation";
+			menuContainerIds [2] = "RequestHistory";
 			menuContainerIds [3] = "VacationApproval";
 		}
 

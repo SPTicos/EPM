@@ -5,8 +5,10 @@ namespace EPMServices
 {
 	public interface IUserRepository
 	{
-		IEnumerable<User> users();
-		User GetUserById (long Id);
+		IEnumerable<User> users ();
+
+		User GetUserById (Int32 Id);
+
 		long IsLoginValid (string Account, string Password);
 	}
 }

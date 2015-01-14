@@ -55,6 +55,9 @@ namespace EPM
 			case "VacationApproval":
 				await Navigation.PushAsync (new VacationApproval ());
 				break;
+			case "RequestHistory":
+				await Navigation.PushAsync (new RequestHistory ());
+				break;
 			}
 		}
 	}
