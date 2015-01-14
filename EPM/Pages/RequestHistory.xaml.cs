@@ -30,16 +30,20 @@ namespace EPM
  
 			vacationList.ItemTemplate = new DataTemplate (typeof(TextCell));
 			vacationList.ItemTemplate.SetBinding (TextCell.TextProperty, "DateRange");
+			vacationList.ItemTemplate.SetValue (TextCell.TextColorProperty, Color.Black);
+
 			//vacationList.ItemTemplate.SetBinding (TextCell.DetailProperty, "InitialDate");
 			//vacationList.ItemTemplate.SetBinding (TextCell.DetailProperty, "EndDate");
 			vacationList.ItemTemplate.SetBinding (TextCell.DetailProperty, "Duration");
+			vacationList.ItemTemplate.SetValue (TextCell.DetailColorProperty, Color.Gray);
 
 
  
 			this.Content = new StackLayout {
 				VerticalOptions = LayoutOptions.FillAndExpand,
 				Spacing = 20,
-				Children = { title, vacationList }
+				Children = { title, vacationList },
+				BackgroundColor = Color.White
 			};
 		}
 	}

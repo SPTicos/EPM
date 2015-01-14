@@ -21,7 +21,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\VacationApprovalDetails.xaml.cs">
       <DependentUpon>VacationApprovalDetails.xaml</DependentUpon>
-      </Compile>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\RequestHistory.xaml.cs">
       <DependentUpon>RequestHistory.xaml</DependentUpon>
     </Compile>

@@ -12,25 +12,25 @@ namespace EPMServices
 
 		public AppMetadataRepositoryMockup ()
 		{
-			numberOfMenuItems = 4;
+			numberOfMenuItems = 3;
 			menuTitles = new string[numberOfMenuItems];
 			menuImages = new string[numberOfMenuItems];
 			menuContainerIds = new string[numberOfMenuItems];
 
 
 			menuTitles [0] = "New Vacation Request";
-			menuTitles [1] = "Manage Request";
-			menuTitles [2] = "History";
-			menuTitles [3] = "Vacation Approval";
+			menuTitles [2] = "Vacation Approval";
+			menuTitles [1] = "History";
 
-			menuImages [0] = "dayCalendar.png";
-			menuImages [1] = "doc.png";
-			menuImages [2] = "list.png";
-			menuImages [3] = "list.png";
 
 			menuContainerIds [0] = "RequestVacation";
-			menuContainerIds [2] = "RequestHistory";
-			menuContainerIds [3] = "VacationApproval";
+			menuContainerIds [2] = "VacationApproval";
+			menuContainerIds [1] = "RequestHistory";
+
+			menuImages [0] = "dayCalendar.png";
+			menuImages [2] = "doc.png";
+			menuImages [1] = "list.png";
+
 		}
 
 		public void setOptions (ref List<MainMenuOption> options)

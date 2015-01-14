@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.VacationRequest">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EPM.VacationRequest" Title="Vacation Request">
 
 <ContentPage.Padding>
 	<!--<OnPlatform x:TypeArguments="Thickness" iOS="0, 40, 0, 0" />-->
@@ -12,11 +12,11 @@
 	    Orientation="Vertical"
 	    BackgroundColor="White">
 	    <ActivityIndicator HorizontalOptions="CenterAndExpand" IsRunning="false" IsVisible="false" x:Name="activity"></ActivityIndicator>
-			<Label Text="Start Date"></Label>
+			<Label Text="Start Date" TextColor="Black"></Label>
 			<DatePicker Format="D" MinimumDate="Today" x:Name="startDate"></DatePicker>
-			<Label Text="End Date"></Label>
+			<Label Text="End Date"  TextColor="Black"></Label>
 			<DatePicker Format="D" MinimumDate="Today" x:Name="endDate"></DatePicker>
-			<Label Text="Comments"></Label>
+			<Label Text="Comments"  TextColor="Black"></Label>
 			<Editor BackgroundColor="Gray" HeightRequest="100"  x:Name="comments"></Editor>
 			<Button Text="Submit" BorderWidth="1" x:Name="btnSubmit" TextColor="Black" BackgroundColor="#FF5722"></Button>
 		</StackLayout>
